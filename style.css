@@ -11,9 +11,8 @@
 :root {
   font-family: 'Mulish', sans-serif;
   font-size: 62.5%;
-  --bgc-header:hsl(195, 91%, 25%);
-  --bgc-search:hsl(195, 46%, 40%);
-  --bgc-footer:hsl(195, 91%, 25%);
+  --bgc-header-footer:hsl(195, 91%, 25%);
+  --bgc-search:hsl(195, 46%, 40%);  
   --bgc-main:hsl(196, 100%, 98%);
   --color-white:hsl(0, 0%, 100%);
   --color-title:hsl(240, 6%, 13%);
@@ -26,4 +25,33 @@ html, body, input, button {
 
 body {
   font-size: 1.6rem;
+  color: var(--color-text);
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  color: var(--color-title);
+  font-weight: 700;
+}
+
+p {
+  color: var(--color-text);
+}
+
+header, footer {
+  background-color: var(--bgc-header-footer);
+}
+
+label,
+footer p {
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+#search {
+  background-color: var(--bgc-search);
+}
+
+main {
+  background-color: var(--bgc-main);
 }
