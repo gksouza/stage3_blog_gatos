@@ -9,7 +9,15 @@
 }
 
 :root {
+  font-family: 'Mulish', sans-serif;
   font-size: 62.5%;
+  --bgc-header:hsl(195, 91%, 25%);
+  --bgc-search:hsl(195, 46%, 40%);
+  --bgc-footer:hsl(195, 91%, 25%);
+  --bgc-main:hsl(196, 100%, 98%);
+  --color-white:hsl(0, 0%, 100%);
+  --color-title:hsl(240, 6%, 13%);
+  --color-text:hsl(240, 5%, 7%);
 }
 
 html, body, input, button {
