@@ -176,3 +176,11 @@ sidebar {
   line-height: 160%;
 }
 
+footer p {
+  background-color: var(--bgc-header-footer);
+  padding: 1.6rem;
+  text-align: center;
+  color: var(--color-white);
+  font-weight: 600;
+}
+
