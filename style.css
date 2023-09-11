@@ -48,7 +48,7 @@ header {
   display: flex;
   align-items: center;
   gap: 2.5rem;
-  padding: 1.2rem 2.8rem;
+  padding: 1.2rem 2.8rem;  
 }
 
 header form {
@@ -94,7 +94,7 @@ footer p {
 }
 
 main {
-  background-color: var(--bgc-main);
+  background-color: var(--bgc-main);  
 }
 
 section {
@@ -115,6 +115,10 @@ section {
   font-size: 2.4rem;
   line-height: 3.8rem;
   margin-bottom: .8rem;
+}
+
+.title p {
+  font-weight: 400;
 }
 
 button {
@@ -181,4 +185,44 @@ footer p {
   color: var(--color-white);
   font-weight: 600;
   margin-top: 3.9rem;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 100%;
+    display: flex;
+    gap: 3.4rem;
+    margin: 0 auto;
+    padding: 4.4rem 10.9rem 0;
+  }
+
+  header {
+    padding: 1.2rem 11.2rem;
+  }
+
+  main {
+    padding-bottom: 3.9rem;
+
+  }
+
+  .title, section p {
+    padding: 0;
+  }
+
+  sidebar {
+    margin-inline: 0;
+  }
+
+  .title_button {
+    display: grid;
+    grid-template-columns: 88% 1fr 1fr;
+  }
+
+  .title_button button {
+    margin-left: 1.2rem;
+  }
+ 
+  .title p:nth-last-child(1) {
+    margin-top: 1rem;
+  }
 }
